@@ -85,6 +85,7 @@
         </configuration>
         <executions>
           <execution>
+            <?m2e execute onConfiguration?>
             <id>checkstyle</id>
             <phase>validate</phase>
             <goals>
