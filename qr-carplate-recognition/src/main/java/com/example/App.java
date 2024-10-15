@@ -1,6 +1,7 @@
 package com.example;
 import com.github.sarxos.webcam.Webcam;
 import com.github.sarxos.webcam.WebcamPanel;
+import java.awt.Dimension;
 import javax.swing.JFrame;
 
 public final class App {
@@ -14,7 +15,8 @@ public final class App {
     public static void main(String[] args) {
         // Gets the default webcam of user's device
         Webcam webcam = Webcam.getDefault();
-        webcam.open(); // opens the webcam
+        webcam.setViewSize(new Dimension(640, 480));
+        webcam.open(); 
 
         // Create a panel to display the webcam feed
         WebcamPanel panel = new WebcamPanel(webcam);
