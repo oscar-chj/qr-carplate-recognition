@@ -11,9 +11,9 @@ import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
 import com.google.zxing.common.HybridBinarizer;
 
 /**********************************************************************************
- This class intergrates the WebcamTest class to scan and interpret qr codes
+ This class intergrates the WebcamTest class to scan and interpret qr codes.
 
- Remember to use .scanningStart after creating the QRTest object to start scanning
+ Remember to use .scanningStart after creating the QRTest object to start scanning.
  **********************************************************************************/
 
 public class QRTest {
