@@ -55,7 +55,7 @@ public class QRTest {
             }
 
             try {
-                Thread.sleep(100);// Sleep for 100ms (to reduce lag) **Don't mind the error
+                Thread.sleep(100);// Sleep for 100ms (to reduce lag) **Don't mind the error**
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();// Handle interuption 
                 scanningStop();// Stop scanning if the proccess is interupted
