@@ -1,8 +1,8 @@
 package com.example;
 
 import javax.swing.*;
-import com.github.sarxos.webcam.Webcam;
 import com.github.sarxos.webcam.WebcamPanel;
+import com.github.sarxos.webcam.Webcam;
 import java.awt.*;
 
 /**
